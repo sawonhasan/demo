@@ -14,5 +14,19 @@
     "morgan": "~1.9.0",
     "mysql": "^2.15.0",
     "serve-favicon": "~2.4.5"
-  }
+  },
+  "main": "Database.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawonhasan/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawonhasan/demo/issues"
+  },
+  "homepage": "https://github.com/sawonhasan/demo#readme",
+  "description": ""
 }
