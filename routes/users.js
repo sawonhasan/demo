@@ -1,7 +1,7 @@
 let express = require('express');
 let mysql = require('mysql');
 let router = express.Router();
-let con = mysql.createConnection({
+/*let con = mysql.createConnection({
     "connectTimeout": 50000,
     "host": "sql212.byethost9.com",
     "user": "b9_16347341",
@@ -11,14 +11,15 @@ let con = mysql.createConnection({
 con.connect(function (err) {
     if (err) throw err;
     console.log("Database Connected!");
-});
+});*/
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-    getAll("test", function (data) {
+    /*getAll("test", function (data) {
         console.log(data);
         res.json(data);
-    });
+    });*/
+    res.send("Users page!")
 });
 
 function add(table, fields, values) {
